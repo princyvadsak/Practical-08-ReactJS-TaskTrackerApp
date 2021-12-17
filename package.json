@@ -1,0 +1,44 @@
+{
+  "name": "practical-8-reactjs-task-tracker-app",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@types/json-server": "0.14.4",
+    "Build": "0.0.1-dev",
+    "build": "0.1.4",
+    "build.js": "0.3.0",
+    "buildjs": "1.0.3",
+    "json-server": "0.17.0",
+    "npm": "8.3.0",
+    "prop-types": "15.7.2",
+    "ra-data-json-server": "3.19.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "4.3.1",
+    "react-router": "6.1.1",
+    "react-router-dom": "6.1.1",
+    "react-scripts": "4.0.0",
+    "reajs": "1.1.19",
+    "serve": "13.0.2",
+    "webpack-dev-server": "4.6.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "server": "json-server --watch db.json --port 5000"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
